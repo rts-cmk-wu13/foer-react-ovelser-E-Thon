@@ -43,3 +43,6 @@ westernMovies.forEach(movie => {
 });
 
 // opgave 10 - I denne sidste opgave skal du selv oprette en variabel. Brugen af ternary operators i React bruges ofte til at rendere forskelligt indhold afhængigt af om en variabel er defineret eller ej. Opret en variabel og brug en ternay operator til at udskrive en type besked hvis variablen findes, og en anden type besked hvis variablen ikke findes.
+let time = "frokost"
+
+time == "frokost" ?  console.log("så hold dog den pause") : console.log("de kan sagtens klare noget mere snak!")
